@@ -3,29 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Style 1-->
+    <link rel="stylesheet" href="style1.css" />
+    <!--Style2-->
+    <!-- <link rel="stylesheet" href="style2.css" />-->
+    <!--Style3-->
+    <!--<link rel="stylesheet" href="style3.css" />-->
     <title>Mighty Ducks Hockey League</title>
   </head>
   <body>
     <header>
-      <h1>Mighty Ducks Hockey League</h1>
-
-      <img src="./img/Logo_Mighty_ducks_01.png" alt="Logo" width="100" />
-      <img src="./img/hockey_3.jpg" alt="Hockey 3" width="100" />
-    </header>
-    <nav>
-      <a href="index.html"> Home </a>
-
-      <a href="about.html">About MDHL</a>
-
-      <a href="#">contact</a>
-    </nav>
-
-    <main>
-      <div>
-        <p>Please email us at</p>
-        <a href="#">mdhl@chihockey.org</a>
-        <p>We reply to your email as soon as we can.</p>
+      <!--banner-->
+      <div class="hockey_photo">
+        <img src="./img/hockey_3.jpg" alt="Hockey 3" />
       </div>
+      <!--title-->
+      <div class="container-title">
+        <h1>Mighty Ducks Hockey League</h1>
+      </div>
+      <!--subtitule-->
+      <div class="subtitle">
+        <h3>Contact</h3>
+      </div>
+      <!--logo-->
+      <div class="logo">
+        <img src="./img/Logo_Mighty_ducks_01.png" alt="Logo" />
+      </div>
+    </header>
+    <main>
+      <section>
+        <!--links-->
+        <div class="container-info">
+          <div class="container-link">
+            <a href="index.html"> Home </a>
+            <a href="about.html">About MDHL</a>
+            <a href="#">contact</a>
+          </div>
+
+          <!--information-->
+          <div class="container-list">
+            <ul>
+              <li>
+                <p class="info-list">
+                  Please email us at <a href="#">mdhl@chihockey.org</a>
+                </p>
+              </li>
+              <li>
+                <p class="info-list">
+                  We reply to your email as soon as we can.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
