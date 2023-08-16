@@ -74,8 +74,8 @@ p {
   padding: 5px;
   margin-left: 5px;
   position: relative;
-  top: -360px;
-  left: 630px;
+  top: -348px;
+  left: 515px;
   text-decoration: none;
   border: 1px solid blue;
   background-color: blue;
@@ -110,4 +110,66 @@ ul {
 .info-list {
   padding-bottom: 20px;
   padding-left: 60px;
+}
+
+/*VIEW GAME*/
+/*schedule*/
+table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+th {
+  background-color: rgb(73, 99, 243);
+  color: white;
+  border: 1px solid rgb(17, 17, 17);
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+td {
+  border: 1px solid rgb(17, 17, 17);
+  padding: 5px;
+  background-color: rgb(202, 194, 194);
+}
+/*information*/
+.info-game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+/*contact*/
+.contact-game {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+/*VIEW RULES*/
+.rules-game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 115px;
+  margin-right: 80px;
+  margin-left: 80px;
+  flex-direction: column;
+}
+
+.subtitle-rule h2 {
+  color: rgb(61, 60, 141);
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.item-list {
+  list-style-type: circle;
 }
