@@ -51,44 +51,56 @@
           <lavel for="street_address">Street Address:</lavel>
           <input
             type="text"
-            name=""
+            name="adress"
             id="street_address"
             placeholder="Street Address"
           />
 
           <lavel for="city">City:</lavel>
-          <input type="text" name="" id="city" placeholder="City" />
+          <input type="text" name="city" id="city" placeholder="City" />
 
           <lavel for="zip_code">Zip Code:</lavel>
-          <input type="number" name="" id="zip_code" placeholder="Zip Code" />
+          <input
+            type="number"
+            name="zip_code"
+            id="zip_code"
+            placeholder="Zip Code"
+          />
 
           <lavel for="birth">Birth Date(mm/dd/yyyy):</lavel>
-          <input type="date" name="" id="birth" />
+          <input type="date" name="birth_date" id="birth" />
         </fieldset>
         <fieldset>
           <legend>Gender:</legend>
 
-          <label for="female"> Female</label>
-          <input type="radio" name="female" id="female" />
-          <label for="">Male</label>
-          <input type="radio" name="male" id="male" />
+          <label>
+            Female <input type="checkbox" name="female" value="female"
+          /></label>
+
+          <label>Male <input type="checkbox" name="male" value="male" /></label>
         </fieldset>
 
         <fieldset>
           <legend>Grade:</legend>
 
-          <label for="school">Pre-School</label>
-          <input type="radio" name="" id="school" />
-          <label for="school1">1st</label>
-          <input type="radio" name="" id="school1" />
-          <label for="school2">2nd</label>
-          <input type="radio" name="" id="school2" />
-          <label for="school3">3rd</label>
-          <input type="radio" name="" id="school3" />
-          <label for="school4">4th</label>
-          <input type="radio" name="" id="school4" />
-          <label for="school5">5th</label>
-          <input type="radio" name="" id="school5" />
+          <label
+            >Pre-School <input type="checkbox" name="pre_school" value="school"
+          /></label>
+          <label
+            >1st <input type="checkbox" name="pre_school" value="school1"
+          /></label>
+          <label
+            >2nd <input type="checkbox" name="pre_school" value="school2"
+          /></label>
+          <label
+            >3rd <input type="checkbox" name="pre_school" value="school3"
+          /></label>
+          <label
+            >4th<input type="checkbox" name="pre_school" value="school4"
+          /></label>
+          <label
+            >5th <input type="checkbox" name="pre_school" value="school5"
+          /></label>
         </fieldset>
 
         <fieldset>
@@ -96,18 +108,30 @@
             <h2>Which elementary school do you live near?</h2>
           </div>
           <p>Closest school:</p>
-          <label for="near_sc1"> AJ Katzenmaier</label>
-          <input type="radio" name="" id="near_sc1" />
-          <label for="near_sc2">D Greenbay</label>
-          <input type="radio" name="" id="near_sc2" />
-          <label for="near_sc3">Marjorie P Hart</label>
-          <input type="radio" name="" id="near_sc3" />
-          <label for="near_sc4">North Elementary</label>
-          <input type="radio" name="" id="near_sc4" />
-          <label for="near_sc5">Howard A Yeager</label>
-          <input type="radio" name="" id="near_sc5" />
-          <label for="near_sc6">South Elementary</label>
-          <input type="radio" name="" id="near_sc6" />
+          <label>
+            AJ Katzenmaier
+            <input type="checkbox" name="closest_school" value="near_sc1"
+          /></label>
+          <label
+            >D Greenbay
+            <input type="checkbox" name="closest_school" value="near_sc2"
+          /></label>
+          <label
+            >Marjorie P Hart
+            <input type="checkbox" name="closest_school" value="near_sc3"
+          /></label>
+          <label
+            >North Elementary
+            <input type="checkbox" name="closest_school" value="near_sc4"
+          /></label>
+          <label
+            >Howard A Yeager
+            <input type="checkbox" name="closest_school" value="near_sc5"
+          /></label>
+          <label
+            >South Elementary
+            <input type="checkbox" name="closest_school" value="near_sc6"
+          /></label>
         </fieldset>
 
         <fieldset>
@@ -116,31 +140,43 @@
               What position(s) do you normally play? (check all that apply)
             </h2>
           </div>
-          <label for="pos_1">Forward</label>
-          <input type="checkbox" name="" id="pos_1" />
-          <label for="pos_2">Defense</label>
-          <input type="checkbox" name="" id="pos_2" />
-          <label for="pos_3">Midfield</label>
-          <input type="checkbox" name="" id="pos_3" />
-          <label for="pos_4">Goalkeeper</label>
-          <input type="checkbox" name="" id="pos_4" />
+          <label
+            >Forward <input type="checkbox" name="position" id="pos_1"
+          /></label>
+          <label
+            >Defense <input type="checkbox" name="position" id="pos_2"
+          /></label>
+          <label
+            >Midfield <input type="checkbox" name="position" id="pos_3"
+          /></label>
+          <label
+            >Goalkeeper <input type="checkbox" name="position" id="pos_4"
+          /></label>
 
           <p>Uniform Size:</p>
 
-          <label for="uniform1">Youth Smal</label>
-          <input type="checkbox" name="" id="uniform1" />
-          <label for="uniform2">Medium</label>
-          <input type="checkbox" name="" id="uniform2" />
-          <label for="uniform3">Youth Medium</label>
-          <input type="checkbox" name="" id="uniform3" />
-          <label for="uniform4">Large</label>
-          <input type="checkbox" name="" id="uniform4" />
-          <label for="uniform5">Youth Large</label>
-          <input type="checkbox" name="" id="uniform5" />
-          <label for="uniform6">Extra-Large</label>
-          <input type="checkbox" name="" id="uniform6" />
-          <label for="uniform7">Small</label>
-          <input type="checkbox" name="" id="uniform7" />
+          <label
+            >Youth Smal <input type="checkbox" name="uniform" value="uniform1"
+          /></label>
+          <label
+            >Medium <input type="checkbox" name="uniform" value="uniform2"
+          /></label>
+          <label
+            >Youth Medium
+            <input type="checkbox" name="uniform" value="uniform3"
+          /></label>
+          <label
+            >Large <input type="checkbox" name="uniform" value="uniform4"
+          /></label>
+          <label
+            >Youth Large <input type="checkbox" name="uniform" value="uniform5"
+          /></label>
+          <label
+            >Extra-Large <input type="checkbox" name="uniform" value="uniform6"
+          /></label>
+          <label
+            >Small <input type="checkbox" name="uniform" value="uniform7"
+          /></label>
         </fieldset>
 
         <fieldset>
@@ -165,12 +201,12 @@
           </p>
 
           <label for="parent">Parent/GuardianSignature:</label>
-          <input type="text" name="" id="parent" />
+          <input type="text" name="parent" id="parent" />
           <label for="date">Date:</label>
-          <input type="date" name="" id="date" />
+          <input type="date" name="date" id="date" />
         </fieldset>
         <div class="btn-submit">
-          <input type="submit" />
+          <input type="submit" value="send" />
         </div>
       </form>
     </main>
