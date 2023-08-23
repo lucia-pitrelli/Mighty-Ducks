@@ -31,7 +31,6 @@ h1 {
 .logo > img {
   width: 125px;
   height: 125px;
-  position: absolute;
   bottom: 20px;
   left: 15px;
 }
@@ -40,7 +39,6 @@ h1 {
 .subtitle {
   width: 100%;
   height: 60px;
-  position: absolute;
   bottom: 170px;
 }
 
@@ -172,4 +170,31 @@ td {
 
 .item-list {
   list-style-type: circle;
+}
+
+/*VIEW GAME*/
+.mapContainer {
+  display: flex;
+}
+.iframe-container {
+  height: 180px;
+  width: 180px;
+}
+
+/*VIEW REGISTRATION*/
+form {
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+}
+
+fieldset {
+  width: 800px;
+  margin: 20px;
+  padding: 20px;
+}
+
+input {
+  padding: 5px;
+  margin: 10px;
 }
